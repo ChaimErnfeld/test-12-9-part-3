@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="homePage">
+      <div id="titel1"><h2>BBBBBBBB</h2></div>
+
+      <form action="">
+        <input class="input" type="text" placeholder="Full Name" />
+        <input class="input" type="text" placeholder="Rank" />
+        <input class="input" type="text" placeholder="Position" />
+        <input class="input" type="text" placeholder="platoon" />
+        <input class="input" type="text" placeholder="Mission Time" />
+        <select name="" id="selectStatus">
+          <option id="activeOption" value="Active">Active</option>
+          <option id="ReserveOption" value="Reserve">Reserve</option>
+          <option id="RetiredOption" value="Retired">Retired</option>
+        </select>
+        <button id="addPersonal">Add Personal</button>
+      </form>
+      <div id="titel2"><h2>BBBBBBBB</h2></div>
+      <div class="tableDiv">
+        <table id="table">
+          <tr>
+            <th><button id="sortBtn">Full Name</button></th>
+            <th>Rank</th>
+            <th>Position</th>
+            <th>platoon</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+          <!-- <tr>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+          </tr> -->
+        </table>
+      </div>
+    </main>
+    <main id="editPage">
+      <div id="titel1"><h2>BBBBBBBB</h2></div>
+
+      <form action="">
+        <input class="inputs" type="text" placeholder="Full Name" />
+        <input class="inputs" type="text" placeholder="Rank" />
+        <input class="inputs" type="text" placeholder="Position" />
+        <input class="inputs" type="text" placeholder="platoon" />
+        <input class="inputs" type="text" placeholder="Mission Time" />
+        <select name="" id="editSelectStatus">
+          <option id="activeOption" value="Active">Active</option>
+          <option id="ReserveOption" value="Reserve">Reserve</option>
+          <option id="RetiredOption" value="Retired">Retired</option>
+        </select>
+        <button id="editPersona">Save changes</button>
+        <button id="removePersona">Cancel</button>
+      </form>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
